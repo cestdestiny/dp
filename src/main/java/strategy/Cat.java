@@ -10,4 +10,11 @@ public class Cat {
     public Integer getAge(){
         return this.age;
     }
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "age=" + age +
+                '}';
+    }
 }
